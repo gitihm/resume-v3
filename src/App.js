@@ -1,26 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import "./App.css";
+import "antd/dist/antd.css";
+import { Row, Col, Button } from "antd";
+import Bio from "./components/Bio";
+import Skill from "./components/Skill"
+import Participated from './components/Participated'
+import ProfileImg from './components/ProfileImg'
+import Quote from './components/Quote'
+import Internship from './components/Internship'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <div className="shift-side-space">
+      <div className="app ">
+        <div className="container ">
+        <div className="top-image">
+        </div>
+          <div>
+            <ProfileImg/>
+            <Row>
+              <Col md={12}>
+                <Bio />
+                <Internship/>
+               
+              </Col>
+              <Col md={12}>
+                <Row>
+                  <Col md={24}> <Participated /></Col>
+                </Row>
+                <Row>
+                  <Col md={24}><Skill/></Col>
+                </Row>
+              </Col>
+            </Row>
+          </div>
+        </div>
+      </div>
+      </div>
+    </>
   );
-}
+};
 
 export default App;
