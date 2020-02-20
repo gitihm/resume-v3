@@ -91,7 +91,7 @@ const Participated = () => {
             <div>NSC : 2020</div>
             <div>
             Participated in The Eighteenth National Software Contest : NSC2020 , Has
-              done a project about intelligent notification system in school.
+              done a project about e-health.
               <div onClick={(e)=>{showModal(e)}} ><a href="#" id="6"> Reference</a></div>
             </div>  
           </Timeline.Item>

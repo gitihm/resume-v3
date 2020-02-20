@@ -32,12 +32,7 @@ const Internship = () => {
         <BioText>
           <Timeline>
             <Timeline.Item>
-              April - July 2019 WESERVE Delivery Phuket
-              <Timeline style={{ marginTop: "1rem" }}>
-                  <Timeline.Item color="green">Vue.js</Timeline.Item>
-                  <Timeline.Item color="green">Flutter</Timeline.Item>
-                  <Timeline.Item color="green">Docker</Timeline.Item>
-              </Timeline>
+              May - July 2019 WESERVE Delivery Phuket
             </Timeline.Item>
           </Timeline>
         </BioText>

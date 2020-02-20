@@ -22,14 +22,14 @@ const App = () => {
               <Col md={12}>
                 <Bio />
                 <Internship/>
-               
+                <Participated />
               </Col>
               <Col md={12}>
                 <Row>
-                  <Col md={24}> <Participated /></Col>
+                  <Col md={24}><Skill/></Col>
                 </Row>
                 <Row>
-                  <Col md={24}><Skill/></Col>
+                  <Col md={24}></Col>
                 </Row>
               </Col>
             </Row>
