@@ -25,21 +25,21 @@ const Skill = () => {
         </Divider>
         <Row type="flex" justify="space-around">
           <Tooltip title="JavaScript">
-            <i class="fab fa-3x fa-js-square"></i>
+            <i className="fab fa-3x fa-js-square"></i>
           </Tooltip>
         </Row>
         <Divider orientation="left">
           <DividerInSideHeader>Intermediate</DividerInSideHeader>
         </Divider>
         <Row type="flex" justify="space-around">
-          <Tooltip title="React">
-            <d class="fab fa-3x fa-react" />
+          <Tooltip title="React" >
+            <d className="fab fa-3x fa-react" />
           </Tooltip>
           <Tooltip title="HTML5">
-            <i class="fab fa-3x fa-html5" />
+            <i className="fab fa-3x fa-html5" />
           </Tooltip>
           <Tooltip title="Node.js">
-            <i class="fab fa-3x fa-node-js" />
+            <i className="fab fa-3x fa-node-js" />
           </Tooltip>
 
           <Tooltip title="Nest.js">
@@ -52,10 +52,10 @@ const Skill = () => {
         </Row>
         <Row type="flex" justify="space-around" style={{ marginTop: ".7rem" }}>
           <Tooltip title="git">
-            <i class="fab fa-3x fa-git" />
+            <i className="fab fa-3x fa-git" />
           </Tooltip>
           <Tooltip title="Docker">
-            <i class="fab fa-3x fa-docker" />
+            <i className="fab fa-3x fa-docker" />
           </Tooltip>
           <Tooltip title="My SQL">
             <img src={mysql} height="60px" style={{ filter: "grayscale(1)" }} />
@@ -73,7 +73,7 @@ const Skill = () => {
             />
           </Tooltip>
           <Tooltip title="Vue.js">
-            <i class="fab fa-3x fa-vuejs" />
+            <i className="fab fa-3x fa-vuejs" />
           </Tooltip>
         </Row>
         <Row type="flex" justify="space-around" style={{ marginTop: ".7rem" }}>
@@ -85,7 +85,7 @@ const Skill = () => {
             />
           </Tooltip>
           <Tooltip title="CSS3">
-            <i class="fab fa-3x fa-css3-alt" />
+            <i className="fab fa-3x fa-css3-alt" />
           </Tooltip>
           <Tooltip title="Open CV">
             <img

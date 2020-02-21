@@ -9,8 +9,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-border-before: 1px;
-  border-style: groove;
-  border-radius: 25px;
+  border-radius: 8px;
 }
 
 .container {
@@ -78,4 +77,10 @@
   top:-40px;
   font-weight: 500;
   font-size: 0.5em;
+}
+.fa-3x:hover{
+  visibility: visible;
+}
+.fa-3x{
+  visibility: visible;
 }
