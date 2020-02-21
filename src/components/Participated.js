@@ -6,30 +6,43 @@ import {
   DividerInSideHeader
 } from "./styles";
 import { Divider, Timeline, Icon,Modal } from "antd";
+import certCompTIA from '../assets/cert-comptia.png'
+import certACM2018 from '../assets/cert-acm2018.jpg'
+import certACM2019 from '../assets/cert-acm2019.jpg'
+import certTesa2020 from '../assets/cert-tesa2020.jpg'
+import certNSC2016 from '../assets/cert-nsc2016.jpg'
+import certNSC2020 from '../assets/cert-nsc2020.jpg'
+
 import test from '../assets/clouds-daylight-heaven-nature-sky-1499705.jpg'
 const Participated = () => {
     const [visible , setVisible] = useState(false)
+    const [url , setUrl] = useState(false)
     const [cert  , setCert] = useState("")
-    const [certs , setCerts] = useState([
-        "https://gamedata.britishcouncil.org/sites/default/files/attachment/number-1_1.jpg",
-        "https://gamedata.britishcouncil.org/sites/default/files/attachment/number-2_1.jpg",
-        "https://gamedata.britishcouncil.org/sites/default/files/attachment/number-3_4.jpg",
-        "https://gamedata.britishcouncil.org/sites/default/files/attachment/number-4_1.jpg",
-        "https://gamedata.britishcouncil.org/sites/default/files/attachment/number-5_2.jpg",
-        "https://gamedata.britishcouncil.org/sites/default/files/attachment/number-6_1.jpg"
-    ])
+    const certs =[
+      certNSC2016,
+      certACM2018,
+        certCompTIA,
+        certACM2019,
+        certTesa2020,
+        certNSC2020
+    ]
     const showModal = (e) => {
         console.log(e.target.id);
         setCert(certs[(+e.target.id)-1])
+        if(+e.target.id == 6){
+          setUrl(true)
+        }
         setVisible(true)
       };
     
       const  handleOk = e => {
         setVisible(false)
+        setUrl(false)
       };
     
       const  handleCancel = e => {
         setVisible(false)
+        setUrl(false)
       };
     
     
@@ -44,6 +57,9 @@ const Participated = () => {
           width="100%"
           okText="Close"
         >
+          {url &&(
+            <span> Website : <a href="https://d2x.medizerva.com" target="_blank"> click here</a><br/> Responsible : BackEnd and Database</span>
+          )}
           <img src={cert} width="100%" height="100%"/>
         </Modal>
       <BioContainer>
@@ -90,8 +106,8 @@ const Participated = () => {
           <Timeline.Item>
             <div>NSC : 2020</div>
             <div>
-            Participated in The Eighteenth National Software Contest : NSC2020 , Has
-              done a project about e-health.
+            Participated in The Twenty-two National Software Contest : NSC2020 , Has
+              done a project Tummy Diarrhea Delivery Express ,Responsible Back-End .
               <div onClick={(e)=>{showModal(e)}} ><a href="#" id="6"> Reference</a></div>
             </div>  
           </Timeline.Item>

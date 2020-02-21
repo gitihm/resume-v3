@@ -10,6 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-border-before: 1px;
   border-radius: 8px;
+  
 }
 
 .container {
@@ -18,6 +19,7 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+ 
 }
 .card-container {
   border: 2px solid rgba(0, 0, 0, 0.4);
@@ -33,7 +35,7 @@
   margin-top: 24px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  /* height: 100px; */
+  height: 25px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -78,9 +80,63 @@
   font-weight: 500;
   font-size: 0.5em;
 }
-.fa-3x:hover{
-  visibility: visible;
+.fa-js-square:hover{
+  color: yellow;
 }
-.fa-3x{
-  visibility: visible;
+.fa-react:hover{
+  color: aqua;
+}
+.fa-html5:hover{
+  color: orangered;
+}
+.fa-node-js:hover{
+  color: green;
+}
+#nestjs:hover{
+  filter: none;
+}
+#nestjs{
+  filter: grayscale(1);
+}
+.fa-git:hover{
+  color: orangered;
+}
+.fa-docker:hover{
+  color: aquamarine;
+}
+#mysql:hover{
+  filter: none;
+}
+#mysql{
+  filter: grayscale(1);
+}
+#mongodb:hover{
+  filter: none;
+}
+#mongodb{
+  filter: grayscale(1);
+}
+.fa-vuejs:hover{
+  color: green;
+}
+#flutter:hover{
+  filter: none;
+}
+#flutter{
+  filter: grayscale(1);
+}
+.fa-css3-alt:hover{
+  color: blue; 
+}
+#opencv:hover{
+  filter: none;
+}
+#opencv{
+  filter: grayscale(1);
+}
+#tensorflow:hover{
+  filter: none;
+}
+#tensorflow{
+  filter: grayscale(1);
 }

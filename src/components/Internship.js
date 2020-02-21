@@ -12,14 +12,14 @@ const Internship = () => {
           <Timeline>
             
             <Timeline.Item>
-              2016-Present Prince of Songkla University
+              <b>2016-Present</b> Prince of Songkla University
               <p>
                 Kathu Phuket , Thailand Bachelor of Computer Engineering , June
                 2020 GPA 2.90/4.0
               </p>
             </Timeline.Item>
             <Timeline.Item>
-              2010-2016 Wangkaphor Pittayakom School
+            <b>2010-2016</b> Wangkaphor Pittayakom School
               <p>
                 Kapho Pattani , Thailand High School Diploma , March 2016 GPA
                 3.51/4.0

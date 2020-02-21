@@ -43,7 +43,13 @@ const QuoteContainer = styled.span`
 
 const QuoteText = styled.p`
   color: black;
-  font-size: 2.5em;
+  font-size: 2em;
+  font-weight: 300;
+  font-style: italic;
+`
+const QuoteTextMore = styled.p`
+  color: black;
+  font-size: 1.5em;
   font-weight: 300;
   font-style: italic;
 `
@@ -76,5 +82,6 @@ export {
   QuoteText,
   SocialContainer,
   ImageContainer,
-  ProfileImage
+  ProfileImage,
+  QuoteTextMore
 }

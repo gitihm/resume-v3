@@ -46,7 +46,7 @@ const Skill = () => {
             <img
               src={nestjs}
               height="60px"
-              style={{ filter: "grayscale(1)" }}
+              id="nestjs"
             />
           </Tooltip>
         </Row>
@@ -58,7 +58,7 @@ const Skill = () => {
             <i className="fab fa-3x fa-docker" />
           </Tooltip>
           <Tooltip title="My SQL">
-            <img src={mysql} height="60px" style={{ filter: "grayscale(1)" }} />
+            <img src={mysql} height="60px" id="mysql" />
           </Tooltip>
         </Row>
         <Divider orientation="left">
@@ -69,7 +69,7 @@ const Skill = () => {
             <img
               src={mongodb}
               height="60px"
-              style={{ filter: "grayscale(1)" }}
+              id="mongodb"
             />
           </Tooltip>
           <Tooltip title="Vue.js">
@@ -81,7 +81,7 @@ const Skill = () => {
             <img
               src={flutter}
               height="60px"
-              style={{ filter: "grayscale(1)" }}
+             id="flutter"
             />
           </Tooltip>
           <Tooltip title="CSS3">
@@ -91,7 +91,7 @@ const Skill = () => {
             <img
               src={opencv}
               height="60px"
-              style={{ filter: "grayscale(1)" }}
+             id="opencv"
             />
           </Tooltip>
         </Row>
@@ -103,7 +103,7 @@ const Skill = () => {
             <img
               src={tensorflow}
               height="60px"
-              style={{ filter: "grayscale(1)" }}
+             id="tensorflow"
             />
           </Tooltip>
         </Row>
