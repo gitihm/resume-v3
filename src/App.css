@@ -72,3 +72,10 @@
   padding-top: 8%;
 
 }
+.chagneSkill{
+  text-align: end;
+  position: relative;
+  top:-40px;
+  font-weight: 500;
+  font-size: 0.5em;
+}

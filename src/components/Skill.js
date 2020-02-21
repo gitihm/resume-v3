@@ -6,7 +6,7 @@ import {
   BioText,
   DividerInSideHeader
 } from "./styles";
-import { Divider, Row } from "antd";
+import { Divider, Row, Tooltip } from "antd";
 import nestjs from "../assets/nestjs.png";
 import mongodb from "../assets/mongodb.svg";
 import mysql from "../assets/mysql.png";
@@ -17,50 +17,97 @@ const Skill = () => {
   return (
     <>
       <BioContainer>
-        <Divider orientation="left">
+        {/* <Divider orientation="left">
           <DividerHeader>Skill</DividerHeader>
-        </Divider>
+        </Divider> */}
         <Divider orientation="left">
           <DividerInSideHeader>Expert</DividerInSideHeader>
         </Divider>
         <Row type="flex" justify="space-around">
-          <i class="fab fa-3x fa-js-square" />
+          <Tooltip title="JavaScript">
+            <i class="fab fa-3x fa-js-square"></i>
+          </Tooltip>
         </Row>
         <Divider orientation="left">
           <DividerInSideHeader>Intermediate</DividerInSideHeader>
         </Divider>
         <Row type="flex" justify="space-around">
-          <i class="fab fa-3x fa-react" />
-          <i class="fab fa-3x fa-html5" />
-          <i class="fab fa-3x fa-node-js" />
-          <img src={nestjs} height="60px" style={{ filter: "grayscale(1)" }} />
+          <Tooltip title="React">
+            <d class="fab fa-3x fa-react" />
+          </Tooltip>
+          <Tooltip title="HTML5">
+            <i class="fab fa-3x fa-html5" />
+          </Tooltip>
+          <Tooltip title="Node.js">
+            <i class="fab fa-3x fa-node-js" />
+          </Tooltip>
+
+          <Tooltip title="Nest.js">
+            <img
+              src={nestjs}
+              height="60px"
+              style={{ filter: "grayscale(1)" }}
+            />
+          </Tooltip>
         </Row>
         <Row type="flex" justify="space-around" style={{ marginTop: ".7rem" }}>
-          <i class="fab fa-3x fa-git" />
-          <i class="fab fa-3x fa-docker" />
-          <img src={mysql} height="60px" style={{ filter: "grayscale(1)" }} />
+          <Tooltip title="git">
+            <i class="fab fa-3x fa-git" />
+          </Tooltip>
+          <Tooltip title="Docker">
+            <i class="fab fa-3x fa-docker" />
+          </Tooltip>
+          <Tooltip title="My SQL">
+            <img src={mysql} height="60px" style={{ filter: "grayscale(1)" }} />
+          </Tooltip>
         </Row>
         <Divider orientation="left">
           <DividerInSideHeader>Basic</DividerInSideHeader>
         </Divider>
         <Row type="flex" justify="space-around">
-          <img src={mongodb} height="60px" style={{ filter: "grayscale(1)" }} />
-          <i class="fab fa-3x fa-vuejs" />
-          
+          <Tooltip title="MongoDB">
+            <img
+              src={mongodb}
+              height="60px"
+              style={{ filter: "grayscale(1)" }}
+            />
+          </Tooltip>
+          <Tooltip title="Vue.js">
+            <i class="fab fa-3x fa-vuejs" />
+          </Tooltip>
         </Row>
         <Row type="flex" justify="space-around" style={{ marginTop: ".7rem" }}>
-        <img src={flutter} height="60px" style={{ filter: "grayscale(1)" }} />
-          <i class="fab fa-3x fa-css3-alt" />
-          <img src={opencv} height="60px" style={{ filter: "grayscale(1)" }} />
+          <Tooltip title="Flutter">
+            <img
+              src={flutter}
+              height="60px"
+              style={{ filter: "grayscale(1)" }}
+            />
+          </Tooltip>
+          <Tooltip title="CSS3">
+            <i class="fab fa-3x fa-css3-alt" />
+          </Tooltip>
+          <Tooltip title="Open CV">
+            <img
+              src={opencv}
+              height="60px"
+              style={{ filter: "grayscale(1)" }}
+            />
+          </Tooltip>
         </Row>
         <Divider orientation="left">
           <DividerInSideHeader>Interesting</DividerInSideHeader>
         </Divider>
         <Row type="flex" justify="space-around">
-        <img src={tensorflow} height="60px" style={{ filter: "grayscale(1)" }} />
+          <Tooltip title="Tensorflow">
+            <img
+              src={tensorflow}
+              height="60px"
+              style={{ filter: "grayscale(1)" }}
+            />
+          </Tooltip>
         </Row>
-        <Divider>
-        </Divider>
+        <Divider></Divider>
       </BioContainer>
     </>
   );

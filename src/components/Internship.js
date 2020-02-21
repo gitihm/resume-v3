@@ -32,7 +32,7 @@ const Internship = () => {
         <BioText>
           <Timeline>
             <Timeline.Item>
-              May - July 2019 WESERVE Delivery Phuket
+              May - July 2019 at WESERVE Delivery Phuket
             </Timeline.Item>
           </Timeline>
         </BioText>
