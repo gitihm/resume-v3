@@ -20,7 +20,7 @@ const Skill = () => {
         {/* <Divider orientation="left">
           <DividerHeader>Skill</DividerHeader>
         </Divider> */}
-        <Divider orientation="left">
+        <Divider >
           <DividerInSideHeader>Expert</DividerInSideHeader>
         </Divider>
         <Row type="flex" justify="space-around">
@@ -28,7 +28,7 @@ const Skill = () => {
             <i className="fab fa-3x fa-js-square"></i>
           </Tooltip>
         </Row>
-        <Divider orientation="left">
+        <Divider >
           <DividerInSideHeader>Intermediate</DividerInSideHeader>
         </Divider>
         <Row type="flex" justify="space-around">
@@ -61,7 +61,7 @@ const Skill = () => {
             <img src={mysql} height="60px" id="mysql" />
           </Tooltip>
         </Row>
-        <Divider orientation="left">
+        <Divider >
           <DividerInSideHeader>Basic</DividerInSideHeader>
         </Divider>
         <Row type="flex" justify="space-around">
@@ -95,7 +95,7 @@ const Skill = () => {
             />
           </Tooltip>
         </Row>
-        <Divider orientation="left">
+        <Divider >
           <DividerInSideHeader>Interesting</DividerInSideHeader>
         </Divider>
         <Row type="flex" justify="space-around">
