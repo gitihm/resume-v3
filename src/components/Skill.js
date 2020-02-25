@@ -17,9 +17,9 @@ const Skill = () => {
   return (
     <>
       <BioContainer>
-        {/* <Divider orientation="left">
+        <Divider orientation="left">
           <DividerHeader>Skill</DividerHeader>
-        </Divider> */}
+        </Divider>
         <Divider >
           <DividerInSideHeader>Expert</DividerInSideHeader>
         </Divider>
