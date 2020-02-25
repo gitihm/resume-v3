@@ -9,9 +9,12 @@ const Quote = () =>{
         <QuoteContainer>
       {/* <QuoteText style={{ marginRight: "1rem" }}>ismael</QuoteText> */}
       <TextLoop springConfig={{ stiffness: 200, damping: 5 }} >
-        <QuoteText>Zero To Hero</QuoteText>
-         <QuoteText>Difficult roads often lead <br/>to beautiful destination.</QuoteText>
-        <QuoteTextMore>Be thankful for what you are now, <br/>and keep fighting <br/>for what you want to be tomorrow.</QuoteTextMore>
+        <p className="text-quote">Zero To Hero</p>
+        <p className="text-quote">Difficult roads often lead <br/>to beautiful destination.</p>
+        <p className="text-quote-big">Be thankful for what you are now, <br/>and keep fighting <br/>for what you want to be tomorrow.</p>
+        {/* <QuoteText className="text-quote">Zero To Hero</QuoteText>
+         <QuoteText className="text-quote">Difficult roads often lead <br/>to beautiful destination.</QuoteText>
+        <QuoteTextMore className="text-quote">Be thankful for what you are now, <br/>and keep fighting <br/>for what you want to be tomorrow.</QuoteTextMore> */}
         {/*<QuoteText>3.</QuoteText>
         <QuoteText>5.</QuoteText>
         <QuoteText>6.</QuoteText>
