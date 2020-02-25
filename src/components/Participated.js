@@ -38,6 +38,7 @@ const Participated = () => {
       const  handleOk = e => {
         setVisible(false)
         setUrl(false)
+        
       };
     
       const  handleCancel = e => {
