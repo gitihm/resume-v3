@@ -20,7 +20,7 @@ const Workshop = () => {
       return (
         <>
           <Col md={6}>
-            <a target="_blank" href={item.svn_url}>
+            <a target="_blank" href={item.svn_url} >
               <Card title={item.name} bordered={true} className="card">
                 <Row type="flex" justify="space-between">
                   <svg

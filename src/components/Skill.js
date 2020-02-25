@@ -107,7 +107,6 @@ const Skill = () => {
             />
           </Tooltip>
         </Row>
-        <Divider></Divider>
       </BioContainer>
     </>
   );

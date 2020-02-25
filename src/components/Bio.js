@@ -17,10 +17,9 @@ const Bio = ()=> {
         <p>Ismael Hama (Air)</p>
         <p>I'm ({age("08/14/1997")} years old) </p>
        
-        {/* <p>
-          Graduated with a  Bachelor Degree in Department of Computer Engineering
-          at the Prince of Songkla University, Phuket Campus
-        </p> */}
+        <p>
+        My hobbies is record vdo (Youtube)  and play online games Dota2.
+        </p>
         
       </BioText>
      

@@ -6,7 +6,7 @@ import Bio from "./components/Bio";
 import Skill from "./components/Skill";
 import Participated from "./components/Participated";
 import ProfileImg from "./components/ProfileImg";
-import Quote from "./components/Quote";
+import Contributions from "./components/Contributions";
 import Internship from "./components/Internship";
 import Workshop from "./components/Workshop";
 import {
@@ -27,23 +27,23 @@ const App = () => {
               <Row>
                 <Col md={12}>
                   <Bio />
-                  <Internship />
+
                   <Participated />
                 </Col>
                 <Col md={12}>
                   <Row>
                     <Col md={24}>
+                      <Internship />
                       <Skill />
                     </Col>
                   </Row>
                   <Row>
-                    <Col md={24}>
-                      
-                    </Col>
+                    <Col md={24}></Col>
                   </Row>
                 </Col>
               </Row>
               <Row>
+                <Contributions />
                 <Workshop />
               </Row>
             </div>
