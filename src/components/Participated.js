@@ -55,7 +55,7 @@ const Participated = () => {
           onOk={handleOk}
           onCancel={handleCancel}
           cancelButtonProps={{ disabled: true }}
-          width="100%"
+          width="80%"
           okText="Close"
         >
           {url &&(
