@@ -58,7 +58,7 @@ const ProfileImg = () => {
                 <Icon type="github" />
               </a>
               <CopyToClipboard
-                text={"hama89700@gmail.com"}
+                text={"ismael.h@outlook.co.th"}
                 onCopy={() => message.success("Copied to clipboard.")}
               >
                 <Icon type="mail" />
