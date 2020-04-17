@@ -108,6 +108,18 @@
 #mysql {
   filter: grayscale(1);
 }
+#firebase:hover {
+  filter: none;
+}
+#firebase {
+  filter: grayscale(1);
+}
+#jquery:hover {
+  filter: none;
+}
+#jquery {
+  filter: grayscale(1);
+}
 #mongodb:hover {
   filter: none;
 }

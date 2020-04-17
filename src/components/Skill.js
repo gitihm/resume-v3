@@ -13,6 +13,8 @@ import mysql from "../assets/mysql.png";
 import flutter from "../assets/flutter.png";
 import opencv from "../assets/opencv.svg";
 import tensorflow from "../assets/tensorflow.png";
+import firebase from "../assets/firebase.png";
+import jquery from "../assets/jquery.png";
 const Skill = () => {
   return (
     <>
@@ -75,8 +77,22 @@ const Skill = () => {
           <Tooltip title="Vue.js">
             <i className="fab fa-3x fa-vuejs" />
           </Tooltip>
+          <Tooltip title="Jquery">
+            <img
+              src={jquery}
+              height="60px"
+             id="jquery"
+            />
+          </Tooltip>
         </Row>
         <Row type="flex" justify="space-around" style={{ marginTop: ".7rem" }}>
+        <Tooltip title="Firebase">
+            <img
+              src={firebase}
+              height="60px"
+             id="firebase"
+            />
+          </Tooltip>
           <Tooltip title="Flutter">
             <img
               src={flutter}
@@ -95,6 +111,7 @@ const Skill = () => {
             />
           </Tooltip>
         </Row>
+        
         <Divider >
           <DividerInSideHeader>Interesting</DividerInSideHeader>
         </Divider>
